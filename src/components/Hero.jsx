@@ -92,7 +92,7 @@ const Hero = () => {
 
         {/* first col */}
         {/* <div className="pb-20 px-6 pt-5" data-aos="fade-down"> */}
-        <div className="absolute top-[235px] w-[87%] text-center left-auto md:max-w-[540px] md:left-10 md:top-[10rem] md:pl-2 backdrop-blur-md bg-white/30 rounded-lg border border-white/10 shadow-lg md:shadow-none" data-aos="fade-down">
+        <div className="absolute top-[40vh] w-[87%] text-center left-auto md:max-w-[540px] md:left-10 md:top-[10rem] md:pl-2 backdrop-blur-md bg-white/30 rounded-lg border border-white/10 shadow-lg md:shadow-none" data-aos="fade-down">
           <h2 className="text-[28px] md:text-[40px]">{hero.title}</h2>
           {/* <div className="flex justify-end">
             <button className="btn">{hero.btnText}</button>
