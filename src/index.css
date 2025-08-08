@@ -1,9 +1,14 @@
 /* Inria serif */
-@import url("https://fonts.googleapis.com/css2?family=Inria+Serif:wght@700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Inria+Serif:wght@700&display=swap");
 /* Poppins */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 /* Paprika */
-@import url("https://fonts.googleapis.com/css2?family=Paprika&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Paprika&display=swap"); */ 
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  font-family: 'Montserrat', sans-serif !important;
+}
 
 @tailwind base;
 @tailwind components;
@@ -24,30 +29,28 @@
     @apply text-dark_primary;
   }
   h1 {
-    @apply font-Poppins lg:text-6xl text-3xl font-extrabold;
+    @apply lg:text-6xl text-3xl font-extrabold;
   }
   h2 {
-    @apply font-Inria text-5xl font-bold;
+    @apply text-5xl font-bold;
   }
   h3 {
-    @apply font-Paprika text-5xl;
+    @apply text-5xl;
   }
   h4 {
-    @apply md:text-4xl text-3xl !leading-relaxed font-Paprika;
+    @apply md:text-4xl text-3xl !leading-relaxed;
   }
   h6 {
-    @apply font-Paprika font-bold text-[#253D57] leading-8;
+    @apply font-bold text-[#253D57] leading-8;
   }
 
   p {
-    @apply font-Poppins text-[0.95rem];
+    @apply text-[0.95rem];
   }
-  button {
-    @apply font-Poppins;
-  }
+
   input,
   textarea {
-    @apply bg-transparent outline-none font-Poppins;
+    @apply bg-transparent outline-none;
   }
 }
 

@@ -33,6 +33,8 @@ import { TbSmartHome } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
 import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
 import { MdOutlinePermContactCalendar } from "react-icons/md";
+import { MdAttachMoney } from "react-icons/md";
+import { MdWorkOutline } from "react-icons/md";
 
 export const content = {
   nav: [
@@ -42,11 +44,11 @@ export const content = {
     },
     {
       link: "#skills",
-      icon: BiUser,
+      icon: MdWorkOutline,
     },
     {
       link: "#services",
-      icon: RiServiceLine,
+      icon: MdAttachMoney,
     },
     {
       link: "#projects",
@@ -58,24 +60,24 @@ export const content = {
     },
   ],
   hero: {
-    title: "Web Developer",
-    firstName: "JOHN",
-    LastName: "ALEX",
+    title: "Рекламный юрист",
+    firstName: "LAWITY",
+    LastName: "",
     btnText: "Hire Me",
     image: Hero_person,
     hero_content: [
       {
-        count: "8+",
-        text: "Years of Experinse in Web development",
+        count: "",
+        text: "Индивидуальный подход – гарантированный результат",
       },
       {
-        count: "20+",
-        text: "Projects Worked in my career",
+        count: "",
+        text: "Доверьте обработку звонков профессионалам и сосредоточьтесь на юридической практике. Мы работаем 24/7, чтобы вы могли развивать бизнес без лишней нагрузки.",
       },
     ],
   },
   skills: {
-    title: "Skills",
+    title: "Формат работы",
     subtitle: "MY TOP SKILLS",
     skills_content: [
       {
