@@ -102,10 +102,10 @@ const Testimonials = () => {
         </Swiper> */}
 
         {/* Контейнер для виджета */}
-        <div className="mb-10 flex justify-center" data-aos="fade-up">
+        {/* <div className="mb-10 flex justify-center" data-aos="fade-up">
           <YandexMapsReviews />
 
-          </div>
+        </div> */}
       </div>
     </section>
   );
