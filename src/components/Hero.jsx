@@ -9,6 +9,10 @@ import { IoLogoWhatsapp } from "react-icons/io";
 const Hero = () => {
   const { hero } = content;
   const [openModal, setOpenModal] = useState(false);
+
+  console.log('123')
+  // const data = JSON.stringify(feedbackData, null, 2)
+
   return (
     <section id="home" className="overflow-hidden">
       <div className="min-h-screen relative flex md:flex-row flex-col-reverse md:items-end justify-center items-center">
@@ -94,6 +98,7 @@ const Hero = () => {
         {/* <div className="pb-20 px-6 pt-5" data-aos="fade-down"> */}
         <div className="absolute top-[40vh] w-[87%] text-center left-auto md:max-w-[540px] md:left-10 md:top-[10rem] md:pl-2 backdrop-blur-md bg-white/30 rounded-lg border border-white/10 shadow-lg md:shadow-none" data-aos="fade-down">
           <h2 className="text-[28px] md:text-[40px]">{hero.title}</h2>
+          <h2>Обратная связь</h2>
           {/* <div className="flex justify-end">
             <button className="btn">{hero.btnText}</button>
           </div> */}

@@ -8,6 +8,8 @@ import "swiper/css/pagination";
 
 import { Pagination } from "swiper";
 
+
+
 const Projects = () => {
   const { Projects } = content;
   return (

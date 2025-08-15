@@ -154,8 +154,8 @@ export const content = {
     ],
   },
   Testimonials: {
-    title: "Testimonials",
-    subtitle: "MY CLIENT REVIEWS",
+    title: "Отзывы",
+    subtitle: "Все отзывы с Яндекс",
     testimonials_content: [
       {
         review:
