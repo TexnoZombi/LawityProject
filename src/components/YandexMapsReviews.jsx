@@ -2,7 +2,7 @@ import React from 'react';
 
 const YandexMapsReviews = () => {
   return (
-    <div className="w-screen h-[895px] md:h-[720px] overflow-hidden relative">
+    <div className="w-screen-90 md:w-screen h-[895px] md:h-[720px] overflow-hidden relative">
       <div className="flex justify-center w-full h-[400px] md:h-[600px] lg:h-[800px]">
       <iframe 
         style={{
